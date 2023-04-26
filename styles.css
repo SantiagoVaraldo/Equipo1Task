@@ -1,0 +1,113 @@
+ul{
+    
+    font-style: oblique;
+    font-size: larger;
+    list-style-type: none;
+    display: flex;
+    
+}
+li:nth-child(odd){
+    color: brown;
+}
+li:nth-child(even){
+    color: yellow;
+}
+#input{
+    color: aqua;
+}
+#boton{
+    color: white;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+    
+.div1 { 
+    grid-area: 1 / 1 / 2 / 6; 
+    background-color: #088395;
+}
+.div2 { 
+    grid-area: 2 / 1 / 5 / 6; 
+    display: flex;
+    flex-direction: row;
+    background-color: #0A4D68;
+    justify-content: center;
+    align-items: center;
+    margin-left: -1%;
+}
+.div3 { 
+    grid-area: 5 / 1 / 6 / 6; 
+    background-color: #00FFCA;
+}
+
+.newH2{
+    text-align: center;
+    border-bottom: 1pt solid black;
+}
+
+.newDiv{
+    height: 150pt;
+    width: 150pt;
+    border: 1pt solid black;
+  
+}
+
+li{
+    margin-top: 1%;
+    margin-right: 1%;
+    background-color: #05BFDB;
+  
+}
+
+h1{
+    text-align: center;
+    border-bottom: 1pt solid black;
+}
+
+.newP{
+    color:black;
+    margin-top: 1%;
+    margin-right: 1%;
+    text-align: center;
+}
+
+button {
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+button:hover,
+button:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
